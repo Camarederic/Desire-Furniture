@@ -13,16 +13,20 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" aria-label="header">
       <div class="container">
         <div class="header__inner">
-          <nav class="menu">
-            <ul class="menu__list">
+          <nav class="menu" aria-label="header navigation">
+            <ul class="menu__list" aria-label="header navigation list">
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">About</a>
+                <a class="menu__list-link" href="#" aria-label="link to about"
+                  >About</a
+                >
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Gallery</a>
+                <a class="menu__list-link" href="#" aria-label="link to gallery"
+                  >Gallery</a
+                >
               </li>
             </ul>
           </nav>
@@ -32,14 +36,18 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Blog</a>
+                <a class="menu__list-link" href="#" aria-label="link to blog"
+                  >Blog</a
+                >
               </li>
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Contact</a>
+                <a class="menu__list-link" href="#" aria-label="link to contact"
+                  >Contact</a
+                >
               </li>
             </ul>
           </nav>
-          <button class="header__btn">
+          <button class="header__btn" aria-label="header button">
             <img src="images/icon_menu.svg" alt="icon menu" />
           </button>
         </div>
