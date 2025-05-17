@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 27px;
   color: $default-color;
-  overflow: hidden;
+  //overflow: hidden;
   min-width: 320px;
 }
 
@@ -31,6 +31,12 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 1920px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .slick-dots {
