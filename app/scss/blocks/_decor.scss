@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   &__title {
+    @extend %title-font;
     max-width: 730px;
     color: $title-color;
     font-size: 60px;
