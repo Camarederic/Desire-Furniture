@@ -27,24 +27,7 @@
     max-width: 475px;
   }
 
-  &__info-email {
-    font-weight: 600;
-    font-size: 14px;
-    color: $title-color;
-    margin-bottom: 22px;
-    padding-left: 30px;
-    display: inline-block;
-    position: relative;
-    &::before {
-      content: "";
-      position: absolute;
-      background-image: url("../images/email.svg");
-      left: 0;
-      top: 8px;
-      width: 16px;
-      height: 12px;
-    }
-  }
+  
 
   &__form {
     display: flex;
