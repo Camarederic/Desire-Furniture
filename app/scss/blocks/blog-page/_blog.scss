@@ -212,7 +212,8 @@
     color: #707070;
   }
   &__arrow--disabled {
-    display: none;
+    opacity: 0;
+    pointer-events: none;
   }
   &__list-num--active {
     color: $title-color;
